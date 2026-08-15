@@ -27,7 +27,7 @@ public class TestCalculadora {
 		//funcion dividir
 		double r4;
 		r4=c1.dividir(10,5);
-		System.out.println("El cociente de la división es: "+ r4);
+		System.out.println("El producto de la multiplicación es: "+ r4);
 	}
 
 }

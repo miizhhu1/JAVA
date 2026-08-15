@@ -23,11 +23,6 @@ public class TestCalculadora {
 		double r3;
 		r3=c1.multiplicar(10,5.5);
 		System.out.println("El producto de la multiplicación es: "+ r3);
-		
-		//funcion dividir
-		double r4;
-		r4=c1.dividir(10,5);
-		System.out.println("El cociente de la división es: "+ r4);
 	}
 
 }
