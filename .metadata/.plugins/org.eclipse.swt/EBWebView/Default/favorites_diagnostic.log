@@ -116,3 +116,54 @@
 2026-08-14 05:01:59.507: [INFO] BookmarkModelLoaded, ids_reassigned: 0
 2026-08-14 05:01:59.507: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-08-14 05:01:59.507: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-14 05:45:34.674: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 02:58:39.755: [INFO] CurrentProfilePath: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 02:58:39.755: [INFO] Profiles total count: 1
+2026-08-15 02:58:39.756: [INFO] Profile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 02:58:39.756: [INFO] LastUsedProfileDir: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 02:58:39.756: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 02:58:39.756: [INFO] OnDoneLoading sync enabled: 0
+2026-08-15 02:58:39.756: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-15 02:58:39.756: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-15 02:58:39.757: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 02:58:44.365: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:10:52.094: [INFO] CurrentProfilePath: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:10:52.094: [INFO] Profiles total count: 1
+2026-08-15 03:10:52.095: [INFO] Profile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:10:52.095: [INFO] LastUsedProfileDir: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:10:52.095: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:10:52.095: [INFO] OnDoneLoading sync enabled: 0
+2026-08-15 03:10:52.095: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-15 03:10:52.095: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-15 03:10:52.095: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:10:54.705: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:13:41.431: [INFO] CurrentProfilePath: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:13:41.431: [INFO] Profiles total count: 1
+2026-08-15 03:13:41.432: [INFO] Profile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:13:41.432: [INFO] LastUsedProfileDir: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:13:41.432: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:13:41.432: [INFO] OnDoneLoading sync enabled: 0
+2026-08-15 03:13:41.432: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-15 03:13:41.432: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-15 03:13:41.432: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:38:04.623: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:42:39.707: [INFO] CurrentProfilePath: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:42:39.707: [INFO] Profiles total count: 1
+2026-08-15 03:42:39.707: [INFO] Profile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:42:39.707: [INFO] LastUsedProfileDir: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:42:39.708: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:42:39.708: [INFO] OnDoneLoading sync enabled: 0
+2026-08-15 03:42:39.708: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-15 03:42:39.708: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-15 03:42:39.708: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:42:52.694: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:55:12.243: [INFO] CurrentProfilePath: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:55:12.243: [INFO] Profiles total count: 1
+2026-08-15 03:55:12.244: [INFO] Profile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:55:12.244: [INFO] LastUsedProfileDir: C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-15 03:55:12.244: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\mishe\Documents\Krakedev\Clases\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-14T04:02:59.397Z
+2026-08-15 03:55:12.244: [INFO] OnDoneLoading sync enabled: 0
+2026-08-15 03:55:12.244: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-15 03:55:12.244: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-15 03:55:12.244: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-15 03:57:04.259: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

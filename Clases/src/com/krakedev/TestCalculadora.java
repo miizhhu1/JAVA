@@ -1,0 +1,28 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calculadora c1 = new Calculadora ();
+		
+		//funcion suma
+		double r1;
+		r1=c1.sumar(10, 5);
+		
+		System.out.println("La suma es: "+ r1);
+		
+		//funcion restar
+		int r2;
+		r2=c1.restar(10, 5);
+		
+		System.out.println("La resta es: "+ r2);
+		
+		//funcion multiplicar
+		double r3;
+		r3=c1.multiplicar(10,5.5);
+		System.out.println("El producto de la multiplicación es: "+ r3);
+	}
+
+}
