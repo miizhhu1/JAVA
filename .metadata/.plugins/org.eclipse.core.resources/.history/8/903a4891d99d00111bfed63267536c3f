@@ -1,0 +1,17 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//intanciar de la clase
+		Rectangulo r1 = new Rectangulo();
+		
+		int resultadoArea;
+		
+		resultadoArea= r1.calcularArea();
+		
+		System.out.println("Resultado es : "+ resultadoArea);
+	}
+
+}
