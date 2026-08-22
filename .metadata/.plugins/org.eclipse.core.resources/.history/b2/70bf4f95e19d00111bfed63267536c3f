@@ -1,0 +1,45 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cuadrado c1 = new Cuadrado();
+		System.out.println("-----Cuadrado 1-----");
+		c1.lado=4;
+		double calcularAreaCuadrado;
+		double calcularPerimetroCuadrado;
+		calcularAreaCuadrado=c1.calcularArea();
+		calcularPerimetroCuadrado= c1.calcularPerimetro();
+		System.out.println("Lado es: "+ c1.lado);
+		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado);
+		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
+		
+		Cuadrado c2 = new Cuadrado();
+		System.out.println("-----Cuadrado -----");
+		c2.lado=5;
+		double calcularAreaCuadrado;
+		double calcularPerimetroCuadrado;
+		calcularAreaCuadrado=c2.calcularArea();
+		calcularPerimetroCuadrado= c2.calcularPerimetro();
+		System.out.println("Lado es: "+ c2.lado);
+		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado);
+		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
+		
+		
+		Cuadrado c1 = new Cuadrado();
+		System.out.println("-----Cuadrado 1-----");
+		c1.lado=4;
+		double calcularAreaCuadrado;
+		double calcularPerimetroCuadrado;
+		calcularAreaCuadrado=c1.calcularArea();
+		calcularPerimetroCuadrado= c1.calcularPerimetro();
+		System.out.println("Lado es: "+ c1.lado);
+		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado);
+		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
+		
+
+	}
+
+}

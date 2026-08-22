@@ -1,0 +1,19 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cuadrado a1 = new Cuadrado ();
+		// area cuadrado 1
+		System.out.println("-----Cuadrado 1-----");
+		a1.lado=4;
+		double calcularAreaCuadrado;
+		calcularAreaCuadrado=a1.calcularArea();
+		System.out.println("Area del cuadrado 1 es: "+calcularAreaCuadrado);
+		
+
+	}
+
+}
