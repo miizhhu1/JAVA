@@ -1,0 +1,31 @@
+package com.krakedev;
+
+public class VehiculoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Vehiculo v;
+		
+		v = new Vehiculo();
+		
+		System.out.println("------Vehiculo 1 : creado------");
+		
+		System.out.println("Año: "+v.getAnio());
+		System.out.println("Marca: "+v.getMarca());
+		System.out.println("Modelo: "+v.getMarca());
+		
+		System.out.println("------Vehiculo 1 : valores asignados------");
+
+		v.setAnio("2012");
+		v.setMarca("Chevrolet");
+		v.setModelo("Nueno");
+		
+		
+
+		
+		
+		
+	}
+
+}

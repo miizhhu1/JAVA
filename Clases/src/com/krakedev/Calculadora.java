@@ -1,6 +1,8 @@
 package com.krakedev;
 
 public class Calculadora {
+	
+	//creamos los metodos
 	public double sumar(int a, int b) {
 		double resultado;
 		resultado= a+b;

@@ -7,38 +7,38 @@ public class TestCuadrado {
 		//cuadrado 1
 		Cuadrado c1 = new Cuadrado();
 		System.out.println("-----Cuadrado 1 -----");
-		c1.lado=4;
+		c1.setLado(4);
 		double calcularAreaCuadrado;
 		double calcularPerimetroCuadrado;
 		calcularAreaCuadrado=c1.calcularArea();
 		calcularPerimetroCuadrado= c1.calcularPerimetro();
-		System.out.println("Lado es: "+ c1.lado);
+		System.out.println("Lado es: "+ c1.getLado());
 		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado);
 		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
 		
 		//cuadrado 2
 		Cuadrado c2 = new Cuadrado();
 		System.out.println("-----Cuadrado 2 -----");
-		c2.lado=5;
+		c2.setLado(5);
 		double calcularAreaCuadrado2;
 		double calcularPerimetroCuadrado2;
 		calcularAreaCuadrado2=c2.calcularArea();
 		calcularPerimetroCuadrado2= c2.calcularPerimetro();
-		System.out.println("Lado es: "+ c2.lado);
+		System.out.println("Lado es: "+ c2.getLado());
 		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado2);
 		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado2);
-		
+			
 		//cuadrado 3
 		Cuadrado c3 = new Cuadrado();
 		System.out.println("-----Cuadrado 3 -----");
-		c3.lado=8;
+		c3.setLado(8);
 		double calcularAreaCuadrado3;
 		double calcularPerimetroCuadrado3;
 		calcularAreaCuadrado3=c3.calcularArea();
 		calcularPerimetroCuadrado3= c3.calcularPerimetro();
-		System.out.println("Lado es: "+ c3.lado);
+		System.out.println("Lado es: "+ c3.getLado());
 		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado3);
-		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado3);
+		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado3);		
 		
 
 	}

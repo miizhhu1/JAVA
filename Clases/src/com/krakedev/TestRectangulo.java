@@ -4,34 +4,37 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//intanciar de la clase
+		//instancia de la clase
 		Rectangulo r1 = new Rectangulo();
-		r1.altura = 5;
-		r1.base = 4;
 		
-		int resultadoArea;
+		System.out.println("------Rectangulo 1 ------");
 		
-		resultadoArea= r1.calcularArea();
-		
-		System.out.println("Resultado es : "+ resultadoArea);
-		
-		Rectangulo r2 = new Rectangulo();
-		r2.altura =2;
-		r2.base = 4;
-		int resultadoArea2;
-		
-		resultadoArea2= r2.calcularArea();
-		System.out.println("Resultado rectangulo 2 es : "+ resultadoArea2);
-
-		//calcular el perimetro
-		Rectangulo p1 = new Rectangulo();
-		p1.altura=2;
-		p1.base=4;
+		r1.setAltura (5);
+		r1.setBase (4);
+		double resultadoArea;
 		double resultadoPerimetro;
 		
-		resultadoPerimetro=p1.calcularPerimetro();
-		System.out.println("El perimetro es: "+ resultadoPerimetro);
-
+		resultadoArea= r1.calcularArea();
+		resultadoPerimetro=r1.calcularPerimetro();
+		
+		System.out.println("Altura: "+r1.getAltura());
+		System.out.println("Base: "+r1.getBase());
+		System.out.println("Area del rectangulo es : "+ resultadoArea);
+		System.out.println("Perimetro del rectangulo es : "+ resultadoPerimetro);
+		
+		System.out.println("------Rectangulo 2 ------");
+		Rectangulo r2 = new Rectangulo();
+		r2.setAltura (2);
+		r2.setBase (4);
+		double resultadoArea2;
+		double resultadoPerimetro2;
+			
+		resultadoArea2= r2.calcularArea();
+		resultadoPerimetro2=r2.calcularPerimetro();
+		System.out.println("Altura: "+r2.getAltura());
+		System.out.println("Base: "+r2.getBase());
+		System.out.println("Area del rectangulo es : "+ resultadoArea2);
+		System.out.println("Perimetro del rectangulo es : "+ resultadoPerimetro2);
 
 	}
 

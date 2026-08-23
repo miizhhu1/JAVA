@@ -1,0 +1,32 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//intanciar de la clase
+		Rectangulo r1 = new Rectangulo();
+		
+		System.out.println("------Rectangulo 1 ------");
+		
+		r1.setAltura (5);
+		r1.setBase (4);
+		
+		int resultadoArea;
+		int resultadoPerimetro;
+		
+		resultadoArea= r1.calcularArea();
+		resultadoPerimetro=r1.calcularPerimetro();
+		
+		System.out.println("Altura: "+r1.getAltura());
+		System.out.println("Base: "+r1.getBase());
+		System.out.println("Area del rectangulo es : "+ resultadoArea);
+		System.out.println("Perimetro del rectangulo es : "+ resultadoArea);
+		
+		
+		
+
+
+	}
+
+}

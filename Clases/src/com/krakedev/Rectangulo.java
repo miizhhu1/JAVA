@@ -3,12 +3,12 @@ package com.krakedev;
 public class Rectangulo {
 	
 	//atributos de la clase
-	public int base;
-	public int altura;
+	private double base;
+	private double altura;
 	
 	//creamos la funcion
-	public int calcularArea() {
-		int area = base*altura;
+	public double calcularArea() {
+		double area = base*altura;
 		return area;
 	}
 	
@@ -16,5 +16,23 @@ public class Rectangulo {
 		double perimetro = base+base+altura+altura;
 		return perimetro;
 	}
+
+	public double getBase() {
+		return base;
+	}
+
+	public void setBase(double base) {
+		this.base = base;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	
+	
 	
 }

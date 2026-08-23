@@ -1,0 +1,36 @@
+package com.krakedev;
+
+public class Fecha {
+	
+	private int dia;
+	private int mes;
+	private int anio;
+	
+	//creamos metedos para poder acceder a los atributos
+	public int getDia() {
+		return dia;
+	}
+	
+	public int getMes() {
+		return mes;
+	}
+	
+	public int getAnio() {
+		return anio;
+	}
+	
+	//creamos metodos para poder asignar valores
+	public void setDia (int nuevoDia) {
+		dia=nuevoDia;
+	}
+	
+	public void setMes (int nuevoMes) {
+		mes=nuevoMes;
+	}
+	
+	public void setAnio(int nuevoAnio) {
+		anio=nuevoAnio;
+	}
+	
+
+}

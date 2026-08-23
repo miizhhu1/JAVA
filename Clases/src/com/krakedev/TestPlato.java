@@ -8,67 +8,66 @@ public class TestPlato {
 		
 		System.out.println("------Plato A : creado------");
 		
-		System.out.println("Nombre: "+platoA.nombre);
-		System.out.println("Tipo de plato: "+platoA.tipo);
-		System.out.println("Precio : $ "+platoA.precio);
-		System.out.println("Disponible: "+platoA.disponible);
+		System.out.println("Nombre: "+platoA.getNombre());
+		System.out.println("Tipo de plato: "+platoA.getTipo());
+		System.out.println("Precio : $ "+platoA.getPrecio());
+		System.out.println("Disponible: "+platoA.isDisponible());
 		
 		System.out.println("------Plato A : valores asignados------");
 		
-		platoA.nombre = "Tequeños de queso";
-		platoA.tipo = "Entrada";
-		platoA.precio = 5.25;
-		platoA.disponible = true;
+		platoA.setNombre ( "Tequeños de queso");
+		platoA.setTipo ( "Entrada");
+		platoA.setPrecio(5.25);
+		platoA.setDisponible (true);
 		
-		System.out.println("Nombre: "+platoA.nombre);
-		System.out.println("Tipo de plato: "+platoA.tipo);
-		System.out.println("Precio : $ "+platoA.precio);
-		System.out.println("Disponible: "+platoA.disponible);
+		System.out.println("Nombre: "+platoA.getNombre());
+		System.out.println("Tipo de plato: "+platoA.getTipo());
+		System.out.println("Precio : $ "+platoA.getPrecio());
+		System.out.println("Disponible: "+platoA.isDisponible());
 
 		Plato platoB = new Plato();
 		
 		System.out.println("------Plato B : creado------");
 		
-		System.out.println("Nombre: "+platoB.nombre);
-		System.out.println("Tipo de plato: "+platoB.tipo);
-		System.out.println("Precio : $ "+platoB.precio);
-		System.out.println("Disponible: "+platoB.disponible);
-		
+		System.out.println("Nombre: "+platoB.getNombre());
+		System.out.println("Tipo de plato: "+platoB.getTipo());
+		System.out.println("Precio : $ "+platoB.getPrecio());
+		System.out.println("Disponible: "+platoB.isDisponible());
+
 		System.out.println("------Plato B : valores asignados------");
 		
-		platoB.nombre = "Lasaña de pollo";
-		platoB.tipo = "Plato fuerte";
-		platoB.precio = 14.15;
-		platoB.disponible = true;
+		platoB.setNombre ( "Lasaña de pollo");
+		platoB.setTipo ( "Plato fuerte");
+		platoB.setPrecio(14.15);
+		platoB.setDisponible (true);
 		
-		System.out.println("Nombre: "+platoB.nombre);
-		System.out.println("Tipo de plato: "+platoB.tipo);
-		System.out.println("Precio : $ "+platoB.precio);
-		System.out.println("Disponible: "+platoB.disponible);
+		System.out.println("Nombre: "+platoB.getNombre());
+		System.out.println("Tipo de plato: "+platoB.getTipo());
+		System.out.println("Precio : $ "+platoB.getPrecio());
+		System.out.println("Disponible: "+platoB.isDisponible());
 
 		
 		Plato platoC = new Plato();
 		
 		System.out.println("------Plato C : creado------");
 		
-		System.out.println("Nombre: "+platoC.nombre);
-		System.out.println("Tipo de plato: "+platoC.tipo);
-		System.out.println("Precio : $ "+platoC.precio);
-		System.out.println("Disponible: "+platoC.disponible);
+		System.out.println("Nombre: "+platoC.getNombre());
+		System.out.println("Tipo de plato: "+platoC.getTipo());
+		System.out.println("Precio : $ "+platoC.getPrecio());
+		System.out.println("Disponible: "+platoC.isDisponible());
 		
 		System.out.println("------Plato C : valores asignados------");
 		
-		platoC.nombre = "Tiramisu";
-		platoC.tipo = "Postre";
-		platoC.precio = 3.65;
-		platoC.disponible = true;
+		platoC.setNombre ( "Tiramisu");
+		platoC.setTipo ( "Postre");
+		platoC.setPrecio(3.65);
+		platoC.setDisponible (true);
 		
-		System.out.println("Nombre: "+platoC.nombre);
-		System.out.println("Tipo de plato: "+platoC.tipo);
-		System.out.println("Precio : $ "+platoC.precio);
-		System.out.println("Disponible: "+platoC.disponible);
-
-		
+		System.out.println("Nombre: "+platoC.getNombre());
+		System.out.println("Tipo de plato: "+platoC.getTipo());
+		System.out.println("Precio : $ "+platoC.getPrecio());
+		System.out.println("Disponible: "+platoC.isDisponible());
+				
 		
 	}
 
