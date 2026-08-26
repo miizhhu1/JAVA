@@ -5,9 +5,8 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//cuadrado 1
-		Cuadrado c1 = new Cuadrado();
+		Cuadrado c1 = new Cuadrado(4);
 		System.out.println("-----Cuadrado 1 -----");
-		c1.setLado(4);
 		double calcularAreaCuadrado;
 		double calcularPerimetroCuadrado;
 		calcularAreaCuadrado=c1.calcularArea();
@@ -17,9 +16,8 @@ public class TestCuadrado {
 		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
 		
 		//cuadrado 2
-		Cuadrado c2 = new Cuadrado();
+		Cuadrado c2 = new Cuadrado(5);
 		System.out.println("-----Cuadrado 2 -----");
-		c2.setLado(5);
 		double calcularAreaCuadrado2;
 		double calcularPerimetroCuadrado2;
 		calcularAreaCuadrado2=c2.calcularArea();
@@ -29,9 +27,8 @@ public class TestCuadrado {
 		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado2);
 			
 		//cuadrado 3
-		Cuadrado c3 = new Cuadrado();
+		Cuadrado c3 = new Cuadrado(8);
 		System.out.println("-----Cuadrado 3 -----");
-		c3.setLado(8);
 		double calcularAreaCuadrado3;
 		double calcularPerimetroCuadrado3;
 		calcularAreaCuadrado3=c3.calcularArea();

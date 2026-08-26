@@ -1,0 +1,44 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		
+		Plato platoA = new Plato("Tequeños de queso","Entrada",5.25,true);
+		
+		System.out.println("------Plato A : creado------");
+		
+		System.out.println("Nombre: "+platoA.getNombre());
+		System.out.println("Tipo de plato: "+platoA.getTipo());
+		System.out.println("Precio : $ "+platoA.getPrecio());
+		System.out.println("Disponible: "+platoA.isDisponible());
+
+		Plato platoB = new Plato("Lasaña de pollo","Plato fuerte",14.15,true);
+		
+		System.out.println("------Plato B : creado------");
+		
+		System.out.println("Nombre: "+platoB.getNombre());
+		System.out.println("Tipo de plato: "+platoB.getTipo());
+		System.out.println("Precio : $ "+platoB.getPrecio());
+		System.out.println("Disponible: "+platoB.isDisponible());
+
+		
+		Plato platoC = new Plato("Tiramisu","Postre",3.65,true);
+		
+		System.out.println("------Plato C : creado------");
+		
+		
+		platoC.setNombre ( );
+		platoC.setTipo ( );
+		platoC.setPrecio(3.65);
+		platoC.setDisponible (true);
+		
+		System.out.println("Nombre: "+platoC.getNombre());
+		System.out.println("Tipo de plato: "+platoC.getTipo());
+		System.out.println("Precio : $ "+platoC.getPrecio());
+		System.out.println("Disponible: "+platoC.isDisponible());
+				
+		
+	}
+
+}

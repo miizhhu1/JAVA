@@ -1,9 +1,12 @@
 	package com.krakedev;
 
 public class Cuadrado {
+	
 	private 	double lado;
 	
-	
+	//creamos el metodo constructor
+	public Cuadrado(double lado) {
+		this.lado=lado;	}
 	
 	public double getLado() {
 		return lado;

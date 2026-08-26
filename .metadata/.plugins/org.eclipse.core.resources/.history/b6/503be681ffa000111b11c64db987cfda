@@ -1,0 +1,21 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//cuadrado 1
+		Cuadrado c1 = new Cuadrado(4);
+		System.out.println("-----Cuadrado 1 -----");
+		double calcularAreaCuadrado;
+		double calcularPerimetroCuadrado;
+		calcularAreaCuadrado=c1.calcularArea();
+		calcularPerimetroCuadrado= c1.calcularPerimetro();
+		System.out.println("Lado es: "+ c1.getLado());
+		System.out.println("Area del cuadrado es: "+calcularAreaCuadrado);
+		System.out.println("Perimetro del cuadrado es: "+calcularPerimetroCuadrado);
+		
+		
+	}
+
+}

@@ -4,7 +4,7 @@ public class TestPlato {
 
 	public static void main(String[] args) {
 		
-		Plato platoA = new Plato();
+		Plato platoA = new Plato("Tequeños de queso","Entrada",5.25,true);
 		
 		System.out.println("------Plato A : creado------");
 		
@@ -12,20 +12,8 @@ public class TestPlato {
 		System.out.println("Tipo de plato: "+platoA.getTipo());
 		System.out.println("Precio : $ "+platoA.getPrecio());
 		System.out.println("Disponible: "+platoA.isDisponible());
-		
-		System.out.println("------Plato A : valores asignados------");
-		
-		platoA.setNombre ( "Tequeños de queso");
-		platoA.setTipo ( "Entrada");
-		platoA.setPrecio(5.25);
-		platoA.setDisponible (true);
-		
-		System.out.println("Nombre: "+platoA.getNombre());
-		System.out.println("Tipo de plato: "+platoA.getTipo());
-		System.out.println("Precio : $ "+platoA.getPrecio());
-		System.out.println("Disponible: "+platoA.isDisponible());
 
-		Plato platoB = new Plato();
+		Plato platoB = new Plato("Lasaña de pollo","Plato fuerte",14.15,true);
 		
 		System.out.println("------Plato B : creado------");
 		
@@ -34,35 +22,11 @@ public class TestPlato {
 		System.out.println("Precio : $ "+platoB.getPrecio());
 		System.out.println("Disponible: "+platoB.isDisponible());
 
-		System.out.println("------Plato B : valores asignados------");
 		
-		platoB.setNombre ( "Lasaña de pollo");
-		platoB.setTipo ( "Plato fuerte");
-		platoB.setPrecio(14.15);
-		platoB.setDisponible (true);
-		
-		System.out.println("Nombre: "+platoB.getNombre());
-		System.out.println("Tipo de plato: "+platoB.getTipo());
-		System.out.println("Precio : $ "+platoB.getPrecio());
-		System.out.println("Disponible: "+platoB.isDisponible());
-
-		
-		Plato platoC = new Plato();
+		Plato platoC = new Plato("Tiramisu","Postre",3.65,true);
 		
 		System.out.println("------Plato C : creado------");
-		
-		System.out.println("Nombre: "+platoC.getNombre());
-		System.out.println("Tipo de plato: "+platoC.getTipo());
-		System.out.println("Precio : $ "+platoC.getPrecio());
-		System.out.println("Disponible: "+platoC.isDisponible());
-		
-		System.out.println("------Plato C : valores asignados------");
-		
-		platoC.setNombre ( "Tiramisu");
-		platoC.setTipo ( "Postre");
-		platoC.setPrecio(3.65);
-		platoC.setDisponible (true);
-		
+			
 		System.out.println("Nombre: "+platoC.getNombre());
 		System.out.println("Tipo de plato: "+platoC.getTipo());
 		System.out.println("Precio : $ "+platoC.getPrecio());

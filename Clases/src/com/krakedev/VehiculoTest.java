@@ -5,9 +5,10 @@ public class VehiculoTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		Vehiculo v;
 		
-		v = new Vehiculo();
+		v = new Vehiculo();// metodo constructor
 		
 		System.out.println("------Vehiculo 1 : creado------");
 		

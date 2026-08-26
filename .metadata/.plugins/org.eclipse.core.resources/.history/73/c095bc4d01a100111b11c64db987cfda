@@ -1,0 +1,30 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		
+		Plato platoA = new Plato("Tequeños de queso","Entrada",5.25,true);
+		
+		System.out.println("------Plato A : creado------");
+		
+		System.out.println("Nombre: "+platoA.setNombre());
+		System.out.println("Tipo de plato: "+platoA.getTipo());
+		System.out.println("Precio : $ "+platoA.getPrecio());
+		System.out.println("Disponible: "+platoA.isDisponible());
+		
+		System.out.println("------Plato A : valores asignados------");
+		
+		
+		
+		System.out.println("Nombre: "+platoA.getNombre());
+		System.out.println("Tipo de plato: "+platoA.getTipo());
+		System.out.println("Precio : $ "+platoA.getPrecio());
+		System.out.println("Disponible: "+platoA.isDisponible());
+
+		
+				
+		
+	}
+
+}

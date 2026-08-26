@@ -6,6 +6,12 @@ public class Rectangulo {
 	private double base;
 	private double altura;
 	
+	//creamos el metodo constructor
+	public Rectangulo (double base, double altura) {
+		this.base=base;
+		this.altura=altura;
+	}
+	
 	//creamos la funcion
 	public double calcularArea() {
 		double area = base*altura;
